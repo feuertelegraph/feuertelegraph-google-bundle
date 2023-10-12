@@ -1,0 +1,23 @@
+{
+  "name": "feuertelegraph/feuertelegraph-google-bundle",
+  "type": "symfony-bundle",
+  "description": "Bundle for Feuertelegraph to sync and connect to Google services",
+  "homepage": "https://github.com/EasyCorp/EasyAdminBundle",
+  "license": "",
+  "require": {
+    "php": ">=8.1"
+  },
+  "require-dev": {
+  },
+  "config": {
+    "sort-packages": true,
+    "allow-plugins": {
+      "symfony/flex": true
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Feuertelegraph\\Bundle\\GoogleBundle\\": "src/"
+    }
+  }
+}
